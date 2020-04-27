@@ -1,7 +1,7 @@
 package com.datuzi.constant;
 
 /**
- * @author 张建波（jianbo.zhang01@ucarinc.com）
+ * @author 张建波
  * @since 2020年04月24日
  */
 public class SysConstant {
