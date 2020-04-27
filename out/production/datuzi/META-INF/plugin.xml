@@ -1,0 +1,37 @@
+<idea-plugin>
+  <id>com.datuzi.unique.plugin.id</id>
+  <name>datuzi</name>
+  <version>1.0</version>
+  <vendor email="k963@vip.qq.com" url="http://www.datuzi.vip">大兔子集团</vendor>
+
+  <description>
+      Show Fund
+      1.请在d:/config.ini文件中，按行配置基金代码
+      2.在Help菜单的，ShowFund选项中查看
+      3.基金信息显示在状态栏中
+    </description>
+
+  <change-notes>
+
+  </change-notes>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+  <idea-version since-build="173.0"/>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+       on how to target different products -->
+  <!-- uncomment to enable plugin in all products
+  <depends>com.intellij.modules.lang</depends>
+  -->
+
+  <extensions defaultExtensionNs="com.intellij">
+
+  </extensions>
+
+  <actions>
+    <action id="ShowFund" class="com.datuzi.action.ShowFund" text="ShowFund" description="ShowFund">
+      <add-to-group group-id="HelpMenu" anchor="last"/>
+    </action>
+  </actions>
+
+</idea-plugin>
