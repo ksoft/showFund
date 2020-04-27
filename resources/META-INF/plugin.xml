@@ -7,12 +7,12 @@
   <description>
       <![CDATA[
       <p>
-      Show Fund
+      Show Fund（显示基金最新估值信息，从天天基金API刷新）
       </p>
       <ul>
-          <li>1.请在d:/config.ini文件中，按行配置基金代码</li>
-          <li>2.在Help菜单的，ShowFund选项中查看</li>
-          <li>3.基金信息显示在右下角弹框和Event Log中</li>
+          <li>在d:/config.ini文件中，按行配置基金代码</li>
+          <li>在Help菜单【ShowFund】选项中启动定时任务，默认刷新频率60秒，可在d:/sysConfig.ini文件中修改taskPeriod属性。重启ShowFund任务后，将按修改后频率刷新</li>
+          <li>基金最新估值信息，显示在右下角弹框和Event Log中</li>
       </ul>
       ]]>
   </description>
