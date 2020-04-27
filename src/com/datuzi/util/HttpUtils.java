@@ -6,10 +6,8 @@ import java.net.URL;
 import java.net.URLConnection;
 
 /**
- * @ClassName: HttpUtils
- * @Description:http请求工具类
- * @author: zhouyy
- * @date: 2019年10月14日 下午3:50:34
+ * @author 张建波
+ * @since 2020年04月22日
  */
 public class HttpUtils {
 
